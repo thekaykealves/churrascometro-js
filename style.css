@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #FF0000;
+    --second-color: #3D0000;
+    --tertiary-color: #950101;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    color: #EEEEEE;
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;   
+    width: 400px;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.desc p {
+    font-size: 18px;
+    text-shadow: 1px 1px var(--primary-color);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    color:  var(--primary-color);
+    text-shadow: 3px 3px var(--second-color);
+    padding-bottom: 30p x;
+}
+
+input {
+    font-size: 20px;
+    margin: 10px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    padding-left: 5px;
+    color: var(--tertiary-color);
+}
+
+input[placeholder] {
+    color: var(--tertiary-color);
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 65px;
+}
+
+button {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--second-color);
+    color: white;
+    transition: 0.3s;
+}
+
+#result {
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    flex-direction: column; 
+    margin-left: 20px;
+    display: flex;
+}
+
+#result span {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#result img {
+    width: 20px;
+}
+
+#result p {
+    margin-top: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px var(--primary-color);
+}
+
+
+
+
