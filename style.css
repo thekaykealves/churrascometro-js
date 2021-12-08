@@ -13,7 +13,7 @@ body {
     height: 100vh;
     font-family: 'Outfit', sans-serif;
     color: #EEEEEE;
-    background-image: url("./assets/background.jpg");
+    background-image: url("./assets/bg-barbecue.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,6 +40,7 @@ body {
 
 .desc p {
     font-size: 18px;
+    color: black;
     text-shadow: 1px 1px var(--primary-color);
     text-align: center;
     padding-bottom: 30px;
@@ -47,9 +48,9 @@ body {
 
 h2 {
     font-size: 30px;
-    color:  var(--primary-color);
-    text-shadow: 3px 3px var(--second-color);
-    padding-bottom: 30p x;
+    color: black;
+    text-shadow: 2px 3px var(--primary-color);
+    padding-bottom: 30px;
 }
 
 input {
@@ -82,14 +83,16 @@ button {
 }
 
 button:hover {
-    background-color: var(--second-color);
-    color: white;
+    background-color: var(--primary-color);
+    color: black;
     transition: 0.3s;
 }
 
 #result {
     padding-top: 20px;
-    color: white;
+    color: black;
+    text-shadow: 1px 1px var(--primary-color);
+    font-weight: 700;
     font-size: 18px;
     flex-direction: column; 
     margin-left: 20px;
@@ -110,6 +113,7 @@ button:hover {
     font-size: 30px;
     display: flex;
     justify-content: center;
+    color: black;
     text-shadow: 2px 2px var(--primary-color);
 }
 
