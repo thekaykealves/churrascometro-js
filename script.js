@@ -1,6 +1,6 @@
 // Carne - 400g por pessoa, + de 6 horas passa a ser 650g
 // Cerveja - 1200ml por pessoa, + de 6 horas passa a ser 2000ml
-// Refrigerante/água - 1000ml por pessoa, + de 6 horas passa a ser 1500ml
+// Refrigerante/Sucos - 1000ml por pessoa, + de 6 horas passa a ser 1500ml
 
 // Criança vale por 0,5
 
@@ -57,7 +57,7 @@ function bebidaPP(duracao) {
 function mostrar(){
     resultado.innerHTML = `<div class="icon"> <img src="assets/beef.png"> <span>${qtdTotalCarne / 1000} Kg de carne</span></div>`;
     resultado.innerHTML += `<div class="icon"> <img src="assets/beer.png"> <span>${Math.ceil(qtdTotalCerveja / 269)} Latas de cerveja</span> </div>`;
-    resultado.innerHTML += `<div class="icon"> <img src="assets/bottle.png"> <span>${Math.ceil(qtdTotalBebidas / 2000)} Garrafas de Refrigerante/Água<span> </div>`;
+    resultado.innerHTML += `<div class="icon"> <img src="assets/bottle.png"> <span>${Math.ceil(qtdTotalBebidas / 2000)} Garrafas de Refrigerante/Sucos<span> </div>`;
 
     resultado.innerHTML += `<p> Bom churrasco! <p>`;
 }
